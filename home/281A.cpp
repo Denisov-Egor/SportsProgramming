@@ -1,15 +1,17 @@
 #include <iostream>
 #include <string>
+#include <cctype>
 
 using namespace std;
 
 int main()
 {
-  int n, k;
   string s;
 
-  cin >> n >> k;
   cin >> s;
 
+  s[0] = toupper(s[0]);
 
+  cout << s;
+  
 }
