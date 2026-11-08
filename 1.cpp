@@ -83,6 +83,10 @@ auto direct_calc()
 
   for (int i = 0; i < N; ++i)
   {
+    
+  }
+}
+  {
     if (i + 1 < N)
     {
       dp[i + 1] += dp[i];

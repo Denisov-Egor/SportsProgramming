@@ -14,8 +14,7 @@ int main()
   {
     cin >> a >> b >> c;
 
-    int f = 
-    max({a, b, c}) - min({a, b, c}) - 2;
+    int f = max({a, b, c}) - min({a, b, c}) - 2;
 
     if (f < 0)
     {
